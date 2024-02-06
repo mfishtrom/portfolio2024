@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MA Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">    <script src="https://kit.fontawesome.com/db4ca895be.js" crossorigin="anonymous"></script>
+
+</head>
+<header>
+    
+
+    <ul>
+        <section class="topnav" id="myTopnav">
+            <li href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="NewLogo.png" alt="MA Design Logo in Black Art Deco Font." class="logo">
+            </li>
+            <li style="background-color: hsl(0, 50%, 75%); color: white; cursor: pointer;">Research</li>
+            <li onclick="location.href='graphic.html';" style="cursor: pointer;">Graphic Design</li>
+            <li onclick="location.href='pm.html';" style="cursor: pointer;">Project Management</li>
+            <li onclick="location.href='wd.html';" style="cursor: pointer;">Web Development</li>
+            <li onclick="location.href='other.html';" style="cursor: pointer;">Other</li>
+            <hr>
+        </section>
+    </ul>
+</header>
+
+<body>
+    <div>
+        <h1>Research</h1>
+
+        <h3><b>Design as Protest</b></h3><br>
+        <div class="about">
+            On researching design as protest, I looked into plastic bag usage. This is a highly controversial topic and the 
+            impact of switching to paper has mixed results. The findings were that industries are not regulated on packaging
+            too often, which is something that we can fight to have changed. Click below to view a summary of my findings.
+        </div><br>
+        <a href="Research/CreativePracticeAsProtest.pdf">
+            <img src="Research/ProtestCover.png" alt="Cover Slide" class="homepage" style="margin-top: 100px;">
+        </a>
+
+        <h3><b>Creative Work Project</b></h3><br>
+        <div class="about">
+            In completion of my Master's Degree, I am researching holistic care for cancer patients.
+            With this, I am designing a database for patients to use to find services in San Francisco, San Mateo, and Alameda Counties.
+            Click below to view my progress as of December 2023.
+        </div><br>
+        <a href="Research/CWPDec2023Benchmark.pdf">
+            <img src="Research/CWPCover.png" alt="Cover Slide" class="homepage" style="margin-top: 100px;">
+        </a>
+    </div>
+    </div>
+</body>
+
+<footer>
+    <li onclick="location.href='index.html';" style="cursor: pointer;">
+        <b class="title">Return Home</b>
+    </li>
+    <p>Last Updated February 2024</p>
+</footer>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+ </script>
+
+</html>

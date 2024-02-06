@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MA Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">    <script src="https://kit.fontawesome.com/db4ca895be.js" crossorigin="anonymous"></script>
+
+</head>
+<header>
+    
+
+    <ul>
+        <section class="topnav" id="myTopnav">
+            <li href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="NewLogo.png" alt="MA Design Logo in Black Art Deco Font." class="logo">
+            </li>
+            <li onclick="location.href='research.html';" style="cursor: pointer;">Research</li>
+            <li onclick="location.href='graphic.html';" style="cursor: pointer;">Graphic Design</li>
+            <li style="background-color: hsl(125deg 50% 75%); color: white; cursor: pointer;">Project Management</li>
+            <li onclick="location.href='wd.html';" style="cursor: pointer;">Web Development</li>
+            <li onclick="location.href='other.html';" style="cursor: pointer;">Other</li>
+            <hr>
+        </section>
+    </ul>
+</header>
+
+<body>
+    <div style="padding-bottom: 50%;">
+        <h1>Project Management</h1>
+        <h3>Typical Project Gantt Chart</h3>
+        <img src="PM/GanttChart.png" alt="Gantt Chart" class="homepage">
+        <div class="column half">
+            <h3><b>Always Sunny Playable</b> <br>Playable Ad created for Eastside</h3>
+            <iframe width="300" height="400" title="Always Sunny Playable" src="https://creatives.crossinstall.com/easts_alway_p2/latest/landscape.html?dev_nomraid=1"></iframe>
+        </div>
+        <div class="column half">
+            <h3><b>Call of Duty Playable</b> <br>Playable Ad created for Activision</h3>
+            <iframe width="300" height="400" title="Call of Duty Playable" src="https://creatives.crossinstall.com/activ_callo_p2/latest/landscape.html?dev_nomraid=1"></iframe>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <li onclick="location.href='index.html';" style="cursor: pointer;">
+        <b class="title">Return Home</b>
+    </li>
+    <p>Last Updated February 2024</p>
+</footer>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+ </script>
+
+</html>

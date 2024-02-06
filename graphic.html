@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MA Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">    <script src="https://kit.fontawesome.com/db4ca895be.js" crossorigin="anonymous"></script>
+
+</head>
+<header>
+    
+
+    <ul>
+        <section class="topnav" id="myTopnav">
+            <li href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="NewLogo.png" alt="MA Design Logo in Black Art Deco Font." class="logo">
+            </li>
+            <li onclick="location.href='research.html';" style="cursor: pointer;">Research</li>
+            <li style="background-color: hsl(50deg 50% 75%); color: white; cursor: pointer;">Graphic Design</li>
+            <li onclick="location.href='pm.html';" style="cursor: pointer;">Project Management</li>
+            <li onclick="location.href='wd.html';" style="cursor: pointer;">Web Development</li>
+            <li onclick="location.href='other.html';" style="cursor: pointer;">Other</li>
+            <hr>
+        </section>
+    </ul>
+</header>
+
+<body>
+    <h1>Graphic Design</h1>
+    <p>
+        <div style="padding-bottom: 50%;">
+        <!-- Column 1 -->
+        <div class="column left"> 
+
+            <!-- Business Card -->
+            <div>
+                <img src="Graphic/businesscard.png" alt="Business Card" class="left-image">
+                <img src="Graphic/businesscard-back.png" alt="Business Card" class="left-image">
+            </div>
+
+            <!-- Pumpkin Patch Game -->
+            <a href="https://des427assignment1.000webhostapp.com/"><img src="Graphic/PumpkinPatch.png" alt="PumpkinPatch Minigame" class="left-image"></a>
+
+            <!-- Mamas Unidas -->
+            <a href="https://www.dcyouth.org/"><img src="Graphic/MamasUnidas.png" alt="Mamas Unidas"></a>
+
+        </div>
+
+
+        <!-- Column 2 -->
+        <div class="column center"> 
+            <!-- Poster -->
+            <a href="Graphic/EventPoster.pdf"><img src="Graphic/EventPoster.png" alt="Golden Gate Park Events Poster" class="center-image"></a>
+        </div>
+
+            
+        <!-- Column 3 -->
+        <div class="column right"> 
+            
+            <!-- Booklet -->
+            <a href="Graphic/Booklet.pdf"><img src="Graphic/CrystalContent.png" alt="Crystal Content Booklet Design" class="right-image"></a>
+
+            <!-- Unity Game -->
+            <a href="https://mfishtrom.github.io/reneighssance/ "><img src="Graphic/Museum.png" alt="Reneighssance Museum" class="right-image"></a>
+            
+            <!-- Coosa Riverkeeper Video -->
+            <a href="https://www.youtube.com/watch?v=iQZGLuq7Urc&t=3s"><img src="Graphic/CoosaRiverkeeperVideo.png" alt="Coosa Riverkeeper Video" class="right-image"></a>
+            
+            <!-- Bottle Label -->
+            <img src="Graphic/BottleLabel.png" alt="Wine Bottle Label">
+
+        </div>
+    </div>
+    </p> 
+</body>
+
+<footer>
+    <li onclick="location.href='index.html';" style="cursor: pointer;">
+        <b class="title">Return Home</b>
+    </li>
+    <p>Last Updated February 2024</p>
+</footer>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+ </script>
+
+</html>
