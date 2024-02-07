@@ -94,7 +94,7 @@ li:nth-of-type(6):hover{
 /* body */
 body{
     margin-top: 200px;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
     margin-left: auto;
     overflow-y: auto;
 }
@@ -129,6 +129,7 @@ p{
 
 .title{
     font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
     padding-right: 25px;
     padding-left: 25px;
     background-image: linear-gradient(to right, hsl(0, 75%, 90%), hsl(50deg 50% 75%), hsl(125deg 50% 75%), hsl(225deg 50% 75%), hsl(300deg 50% 75%));
@@ -205,7 +206,23 @@ h3{
 /* Project Management */
 
 iframe{
-    width: 200px;
+    width: 300px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.research{
+    margin-top: 5%;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smallerimg{
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -224,7 +241,21 @@ footer {
 
 /* mobile formatting */
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
+    .title{
+        font-size: 12px;
+    }
+
+    .about{
+        font-size: 10px;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
     ul {
         list-style-type: none;
         margin: 0;
@@ -262,8 +293,26 @@ footer {
         background-image: linear-gradient(to right, hsl(0, 75%, 90%), hsl(50deg 50% 75%), hsl(125deg 50% 75%), hsl(225deg 50% 75%), hsl(300deg 50% 75%));
     }
 
+    h3{
+        font-size: small;
+    }
+
     hr{
         display: none;
+    }
+
+    iframe{
+        width: 100px;
+        height: auto;
+
+    }
+
+    .research{
+        margin-top: 15%;
+        width: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .about{
