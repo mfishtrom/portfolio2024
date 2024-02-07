@@ -1,0 +1,4 @@
+# Remove double forward slashes
+<IfModule mod_alias.c>
+	RedirectMatch 301 ^//(.*)$ http://example.com/$1
+</IfModule>
