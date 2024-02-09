@@ -197,7 +197,7 @@ h2{
 }
 
 h3{
-    font-size: medium;
+    font-size: large;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
     font-weight: normal;
@@ -228,6 +228,11 @@ iframe{
     margin-right: auto;
 }
 
+/* Web Design */
+.wd-page{
+    margin-bottom: 80%;
+}
+
 /* footer */
 footer {
     position: fixed;
@@ -250,6 +255,12 @@ footer {
         font-size: 10px;
         padding-right: 10%;
         padding-left: 10%;
+        left: 0%;
+        transform: translate(0%);
+        z-index: -1;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 25%;
     }
 
     p{
@@ -315,12 +326,26 @@ footer {
         margin-right: auto;
     }
 
-    .about{
-        left: 0%;
-        transform: translate(0%);
-        z-index: -1;
-        margin-left: 10px;
-        margin-right: 10px;
+    .left{
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+        width: 75%;
+    }
+    
+    .right{
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+        width: 75%;
+    }
+    
+    .center{
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+        width: 75%;
+    }
+
+    .wd-page{
+        margin-bottom: 120%;
     }
 
     .topnav li{display: none;}
